@@ -4,19 +4,19 @@
 const nuevaString = 'Hola como estas';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = '11';
+const nuevoNum = 11;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = 'jharold';
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;f
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1.05 ;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,73 +28,117 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
-}
+  function suma(x, y){
+    console.log(suma(2, 2)).toBe(4)
+  };
+  }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  function rest(x, y){
+    console.log(resta(2, 2)).toBe(0)
+  };
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  function multiplica(x, y){
+    console.log(multiplica(2, 2)).toBe(4)
+  };
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  function divide(x, y){
+    console.log(divide(2, 2)).toBe(0)
+  };
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  function soniguales(a, b){
+    var a = new String( 'foo' );
+    var b = "foo";
+    var c = new String( 'foo' );
+ 
+    console.log( a == b ).toBe(true)
+    console.log( b == c ).toBe(true)
+    console.log( a == c ).toBe(false)
+  };
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  function tienenMismaLongitud(str1, str2){
+    var str1 = maria
+    var str2 = pollo
+    var str3 = maria
+
+    console.log( str1 === str2 ),toBe(false)
+    console.log( str2 === str3 ),toBe(false)
+    console.log( str1 === str3 ),toBe(true)
+  }
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  function menosQueNoventa(numero){
+    if( 10 < 90 ){
+      return true;
+      } else
+      return false;
+      }
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+ function mayorQueCincuenta(num){ 
+   if( 100 > 50){
+    return true;
+    } else
+    return false;
+    }
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  function obtenerResto(x, y, a){
+    var x = 5
+    var y = 10
+    var a = 1
+
+    console.log( x % y )
+    console.log( y % x )
+    console.log( a % x )
+  }
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  function esPar(num)
+    const numero = 2;
+    const 
 }
 
 function esImpar(num) {
